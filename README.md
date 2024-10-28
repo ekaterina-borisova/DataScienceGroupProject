@@ -1,6 +1,6 @@
 # Data Science Group Project
 
-###Annotation Script
+##Annotation Script
 This script allows users to manually annotate images by entering the label of the image and then selecting 11 points on each image. The points and labels are saved to a CSV file.
 
 Steps:
@@ -13,7 +13,7 @@ Steps:
     - Click on 11 points within the image.
     - Press Enter to save or Backspace to reset points for the current image.
 
-###Visualize Annotation Script
+##Visualize Annotation Script
 This script reads the a csv file of the labels and points to then superimpose the saved points and write the label onto each corresponding image.
 
 Steps:
