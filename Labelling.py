@@ -11,9 +11,9 @@ def load_processed_images(output_file):
     if os.path.exists(output_file):
         with open(output_file, mode='r') as file:
             reader = csv.reader(file)
-            next(reader)  # Skip header
+            next(reader)
             for row in reader:
-                processed_images.add(row[0])  # Add the filename to the set
+                processed_images.add(row[0])
     return processed_images
 
 def click_event(event, x, y, flags, param):
@@ -81,12 +81,12 @@ def process_images(image_folder, output_file):
 
             while True:
                 key = cv2.waitKey(1) & 0xFF
-                if key == 13:  # 'Enter' key
+                if key == 13:  # Enter key
                     if len(points) == 11:
                         break
                     else:
                         print("Please select 11 points before confirming.")
-                elif key == 8:  # 'Backspace' key
+                elif key == 8:  # Backspace key
                     reset_points(img_copy)
             
             
