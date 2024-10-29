@@ -1,8 +1,9 @@
 # Data Science Group Project
 
 Group members:
-İrem Şekeroğlu Scriper: 378184
-Mario Alejandro Sánchez Nájera: 395781
+- İrem Şekeroğlu Scriper: 378184
+- Mario Alejandro Sánchez Nájera: 395781
+- Théo Romi Azhary Maëtz: 312583
 
 ## Labelling Script
 This script allows users to manually annotate images by entering the label of the image and then selecting 11 points on each image. The points and labels are saved to a CSV file.
